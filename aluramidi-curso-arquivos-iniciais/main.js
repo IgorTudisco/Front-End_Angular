@@ -4,14 +4,10 @@ function playSom(idElementAudio) {
 
 const listDeTeclas = document.querySelectorAll('.tecla')
 
-let cont = 0
-
-while (cont < listDeTeclas.length) {
-  const tecla = listDeTeclas[cont]
+for (let i = 0; i < listDeTeclas.length; i++) {
+  const tecla = listDeTeclas[i]
   const idAudio = `#som_${tecla.classList[1]}`
-
   tecla.onclick = function () {
     playSom(idAudio)
   }
-  cont++
 }
