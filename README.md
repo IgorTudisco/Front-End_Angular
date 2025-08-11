@@ -5,6 +5,6 @@ Construa sua primeira aplicação Web
 
 - ### JavaScript para Web: Crie páginas dinâmicas [Link do curso](https://cursos.alura.com.br/course/javascript-web-paginas-dinamicas)
 
-  - Certificado [Link]()
+  - Certificado [Link](https://cursos.alura.com.br/certificate/igortudisco/javascript-web-paginas-dinamicas)
 
 
