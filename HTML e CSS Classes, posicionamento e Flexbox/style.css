@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao_links_link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+/*
+    CSS-tricks => https://css-tricks.com/
+    gap => https://css-tricks.com/almanac/properties/g/gap/
+    flexbox => https://www.alura.com.br/artigos/css-guia-do-flexbox
+    Google Fonts => https://fonts.google.com/
+    CSS Unidades => https://www.alura.com.br/artigos/guia-de-unidades-no-css
+    Color =>
+        https://coolors.co/
+        https://color.adobe.com/pt/create/color-wheel
+        https://colorhunt.co/
+        https://m3.material.io/styles/color/system/overview
+    CSS Seletores => https://www.alura.com.br/artigos/css-seletores-avancados-aplicacoes-web
+    CSS Organização => https://www.alura.com.br/artigos/comecando-a-organizar-seu-css
+    CSS BEM => https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem
+    Box Model e o Box Sizing => https://www.alura.com.br/artigos/entendendo-como-funciona-box-model-e-o-box-sizing
+    Reset CSS: https://www.alura.com.br/artigos/o-que-e-reset-css
+    CSS Dúvidas => https://cursos.alura.com.br/forum/topico-duvida-viewport-271522
+    border-box => https://cursos.alura.com.br/forum/topico-qual-a-funcao-do-box-sizing-border-box-34779
+    SASS e CSS => https://www.alura.com.br/conteudo/sass-css-estilizando-site
+*/
